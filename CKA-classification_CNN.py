@@ -169,10 +169,10 @@ use the own load_and_merge_features accordig to the your data have to change the
 '''
 
 
+# if __name__ == "__main__":
+    # file_path_hc_1 = '/kaggle/input/depression/ANDROID/ANDROID/SNAC_interview_hc.csv'
+    # file_path_pt_1 = '/kaggle/input/depression/ANDROID/ANDROID/SNAC_interview_pt.csv'
+    # file_path_hc_2 = '/kaggle/input/depression/ANDROID/ANDROID/HuBERT_interview_hc.csv'
+    # file_path_pt_2 = '/kaggle/input/depression/ANDROID/ANDROID/HuBERT_interview_pt.csv'
 
-# file_path_hc_1 = '/kaggle/input/depression/ANDROID/ANDROID/SNAC_interview_hc.csv'
-# file_path_pt_1 = '/kaggle/input/depression/ANDROID/ANDROID/SNAC_interview_pt.csv'
-# file_path_hc_2 = '/kaggle/input/depression/ANDROID/ANDROID/HuBERT_interview_hc.csv'
-# file_path_pt_2 = '/kaggle/input/depression/ANDROID/ANDROID/HuBERT_interview_pt.csv'
-
-# main(file_path_hc_1, file_path_pt_1, file_path_hc_2, file_path_pt_2, epochs=50)
+    # main(file_path_hc_1, file_path_pt_1, file_path_hc_2, file_path_pt_2, epochs=50)

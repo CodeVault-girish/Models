@@ -170,25 +170,25 @@ def main(file_1_train, file_1_test, file_1_val, file_2_train, file_2_test, file_
 
 
 
+# if __name__ == "__main__":
 
-# import pandas as pd
 
-# test_labels = pd.read_csv('/kaggle/input/labels/EDAIC_LABELS/test_split.csv')
-# train_labels = pd.read_csv('/kaggle/input/labels/EDAIC_LABELS/train_split.csv')
-# val_labels = pd.read_csv('/kaggle/input/labels/EDAIC_LABELS/dev_split.csv')
-# all_labels = pd.concat([test_labels, train_labels, val_labels])
+    # test_labels = pd.read_csv('/kaggle/input/labels/EDAIC_LABELS/test_split.csv')
+    # train_labels = pd.read_csv('/kaggle/input/labels/EDAIC_LABELS/train_split.csv')
+    # val_labels = pd.read_csv('/kaggle/input/labels/EDAIC_LABELS/dev_split.csv')
+    # all_labels = pd.concat([test_labels, train_labels, val_labels])
 
-# label_file = '/kaggle/working/all_labels.csv'
-# all_labels.to_csv(label_file, index=False)
+    # label_file = '/kaggle/working/all_labels.csv'
+    # all_labels.to_csv(label_file, index=False)
 
-# file_1_train = '/kaggle/input/depression/EDAIC/EDAIC/MFCC_train.csv'
-# file_1_test = '/kaggle/input/depression/EDAIC/EDAIC/MFCC_test.csv'
-# file_1_val = '/kaggle/input/depression/EDAIC/EDAIC/MFCC_val.csv'
+    # file_1_train = '/kaggle/input/depression/EDAIC/EDAIC/MFCC_train.csv'
+    # file_1_test = '/kaggle/input/depression/EDAIC/EDAIC/MFCC_test.csv'
+    # file_1_val = '/kaggle/input/depression/EDAIC/EDAIC/MFCC_val.csv'
 
-# file_2_train = '/kaggle/input/depression/EDAIC/EDAIC/UniSpeechSAT_train.csv'
-# file_2_test = '/kaggle/input/depression/EDAIC/EDAIC/UniSpeechSAT_test.csv'
-# file_2_val = '/kaggle/input/depression/EDAIC/EDAIC/UniSpeechSAT_val.csv'
+    # file_2_train = '/kaggle/input/depression/EDAIC/EDAIC/UniSpeechSAT_train.csv'
+    # file_2_test = '/kaggle/input/depression/EDAIC/EDAIC/UniSpeechSAT_test.csv'
+    # file_2_val = '/kaggle/input/depression/EDAIC/EDAIC/UniSpeechSAT_val.csv'
 
-# epochs = 50
+    # epochs = 50
 
-# main(file_1_train, file_1_test, file_1_val, file_2_train, file_2_test, file_2_val, label_file, epochs=epochs)
+    # main(file_1_train, file_1_test, file_1_val, file_2_train, file_2_test, file_2_val, label_file, epochs=epochs)

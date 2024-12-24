@@ -169,3 +169,19 @@ def main(filenames, train_dir1, test_dir1, train_dir2, test_dir2, prefix1='prefi
 
     eers, average_eer = compute_multiclass_eer(test_true_labels, test_predictions)
     print(f"Final Average EER: {average_eer * 100:.2f}%")
+
+
+
+
+    
+# filenames = ["A01_concatenated.csv", 
+#              "A02_concatenated.csv", 
+#              "A03_concatenated.csv",
+#              "A04_concatenated.csv",
+#              "A05_concatenated.csv",
+#              "A06_concatenated.csv",
+#              "A07_concatenated.csv",
+#              "A08_concatenated.csv"
+#             ]
+#if __name__ == "__main__":
+    # main(filenames, m_a_pMERT_v1_330M_MERT_train_deepfake, m_a_pMERT_v1_330M_MERT_dev_deepfake, I_B_train, I_B_dev, prefix1='m_', prefix2='I_')
