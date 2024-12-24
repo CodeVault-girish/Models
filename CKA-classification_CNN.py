@@ -162,8 +162,6 @@ def main(file_path_hc_1, file_path_pt_1, file_path_hc_2, file_path_pt_2, epochs=
     evaluate_model(model, features_1_test, features_2_test, target_test)
 
 
-
-
 '''
 use the own load_and_merge_features accordig to the your data have to change the preprocess_features or main function
 '''
